@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Junior Frontend Developer & Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-brand">
+          <div class="logo-box">D</div>
+          <span>Developer</span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <button class="theme-toggle" id="themeToggle">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <button class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <button class="btn btn-cta">Get In Touch</button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <!-- Hero Photo -->
+          <div class="hero-photo-container">
+            <img
+              src="images/kalyani.pic.jpg"
+              alt="Kalyani Kadam"
+              class="hero-photo"
+            />
+          </div>
+
+          <!-- Hero Text -->
+          <div class="hero-text">
+            <!-- Main Heading -->
+            <h1 class="hero-title">
+              Hello from <span class="animated-name">Kalyani Kadam</span> !
+              <span class="gradient-text">
+                <br />
+                Junior Frontend Developer</span
+              >
+              <br />
+              <span class="text-light">&amp; Web Developer</span>
+            </h1>
+
+            <!-- Subtitle -->
+            <p class="hero-subtitle">
+              I build clean, responsive, and interactive web experiences that
+              blend modern design with strong frontend and web development
+              functionality. Let’s build something extraordinary together.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                View My Work
+                <span class="btn-icon">→</span>
+              </a>
+              <a href="resume.pdf" class="btn btn-secondary" download>Resume</a>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+              <div class="scroll-dot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Animated Background -->
+      <div class="hero-background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About <span class="gradient-text">Me</span>
+        </h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a passionate frontend developer and web designer with a
+              mission to create digital products that don't just look amazing,
+              but also solve real problems. With over 8+ months of experience in
+              frontend and web development, I've worked with startups and
+              established companies to bring their visions to life through
+              modern, responsive, and interactive web experiences.
+            </p>
+          </div>
+
+          <!-- Features Grid -->
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">💻</div>
+              <h3>Development</h3>
+              <p>
+                Building scalable, performant web applications with modern
+                technologies and best practices.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🎨</div>
+              <h3>Design</h3>
+              <p>
+                Creating beautiful user interfaces that are intuitive,
+                accessible, and delightful to interact with.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">⚡</div>
+              <h3>Optimization</h3>
+              <p>
+                Ensuring optimal performance, SEO, and user experience across
+                all devices and browsers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">
+          Featured <span class="gradient-text">Projects</span>
+        </h2>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <img
+              src="images/To-Do List.png"
+              alt="To-Do List App"
+              class="project-image"
+            />
+            <div class="project-content">
+              <h3 class="project-title">To-Do List App</h3>
+              <p class="project-description">
+                A productivity app for managing tasks with a clean interface and
+                local storage functionality.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Tailwind CSS</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/kalyani2004-pk/ToDo-List-using-React"
+                  class="project-link"
+                  >Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <img
+              src="images/Ai-Miqder.png"
+              alt="AI-Miqdar Frontend"
+              class="project-image"
+            />
+            <div class="project-content">
+              <h3 class="project-title">AI-Miqdar Frontend</h3>
+              <p class="project-description">
+                An AI-powered frontend application with modern design and smooth
+                animations.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Figma</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Framer Motion</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/kalyani2004-pk/Ai-Miqdar"
+                  class="project-link"
+                  >Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <img
+              src="images/E-Commerce Website.png"
+              alt="E-Commerce Website for Engineering Students"
+              class="project-image"
+            />
+            <div class="project-content">
+              <h3 class="project-title">
+                E-Commerce Website for Engineering Students
+              </h3>
+              <p class="project-description">
+                A specialized e-commerce platform designed for engineering
+                students to buy and sell academic materials.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Figma</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Framer Motion</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/kalyani2004-pk/GetYourProjectDone-Frontend"
+                  class="project-link"
+                  >Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">
+          Technical <span class="gradient-text">Skills</span>
+        </h2>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <ul class="skill-list">
+              <li><span class="skill-dot"></span>React</li>
+              <li><span class="skill-dot"></span>Next.js</li>
+              <li><span class="skill-dot"></span>TypeScript</li>
+              <li><span class="skill-dot"></span>Tailwind CSS</li>
+              <li><span class="skill-dot"></span>Framer Motion</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <ul class="skill-list">
+              <li><span class="skill-dot"></span>Node.js</li>
+              <li><span class="skill-dot"></span>Express</li>
+              <li><span class="skill-dot"></span>PostgreSQL</li>
+              <li><span class="skill-dot"></span>MongoDB</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Design</h3>
+            <ul class="skill-list">
+              <li><span class="skill-dot"></span>Figma</li>
+              <li><span class="skill-dot"></span>UI/UX Design</li>
+              <li><span class="skill-dot"></span>Prototyping</li>
+              <li><span class="skill-dot"></span>Design Systems</li>
+              <li><span class="skill-dot"></span>Accessibility</li>
+              <li><span class="skill-dot"></span>Web Animation</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Tools</h3>
+            <ul class="skill-list">
+              <li><span class="skill-dot"></span>GitHub</li>
+              <li><span class="skill-dot"></span>Docker</li>
+              <li><span class="skill-dot"></span>CI/CD</li>
+              <li><span class="skill-dot"></span>VS Code</li>
+              <li><span class="skill-dot"></span>Webpack</li>
+              <li><span class="skill-dot"></span>Testing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Let's <span class="gradient-text">Connect</span>
+        </h2>
+
+        <p class="contact-subtitle">
+          Have a project in mind? I'd love to hear about it. Get in touch and
+          let's create something amazing together.
+        </p>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+            <span class="error-message" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your@email.com"
+              required
+            />
+            <span class="error-message" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your message..."
+              rows="5"
+              required
+            ></textarea>
+            <span class="error-message" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-wide">
+            Send Message
+          </button>
+        </form>
+
+        <div class="success-message" id="successMessage">
+          ✓ Message sent successfully! I'll get back to you soon.
+        </div>
+
+        <!-- Social Links -->
+        <div class="social-links">
+          <a
+            href="https://github.com/kalyani2004-pk"
+            class="social-icon"
+            title="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/kalyani-kadam-595259280"
+            class="social-icon"
+            title="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="mailto:kalyanikadam77013@gmail.com"
+            class="social-icon"
+            title="Email"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Junior Frontend Developer. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="https://github.com/kalyani2004-pk">GitHub</a>
+          <a href="https://www.linkedin.com/in/kalyani-kadam-595259280"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
